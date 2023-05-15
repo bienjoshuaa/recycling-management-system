@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Header Styles */
+h1 {
+  text-align: center;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  /* Make the table layout more compact for smaller screens */
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 4px;
+  }
+}
